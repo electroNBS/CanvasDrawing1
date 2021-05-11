@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Firebase Drawings</title>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.sound.min.js"></script>
+  <script src="libraries/matter.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-database.js"></script>
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyBg6fbb6yRaVu5_3mmgJ4bvl57QsWLSMuc",
+      authDomain: "universal-paint-app.firebaseapp.com",
+      databaseURL: "https://universal-paint-app.firebaseio.com",
+      projectId: "universal-paint-app",
+      storageBucket: "universal-paint-app.appspot.com",
+      messagingSenderId: "853861564201",
+      appId: "1:853861564201:web:633b26a42c1bb8626f8138"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+  <script src="sketch.js"></script>
+</head>
+
+<body>
+  <div>
+    <img src="./assets/img/my logo.png" alt="logo" width="200" height="120" align="right">
+  </div>
+  <div class="head-div">
+    <h1 class="h1" contenteditable="false">𝓒𝓪𝓷𝓿𝓪𝓼 𝓭𝓻𝓪𝔀𝓲𝓷𝓰</h1>
+  </div>
+  
+  <h3><p>&copy; <script>document.write(new Date().getFullYear())</script>
+   ElectroNBS. All Rights Reserved.</p></h3>
+  <h3>Get, Set, Draw!</h3>
+</body>
+
+</html>

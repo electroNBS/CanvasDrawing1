@@ -1,0 +1,28 @@
+html,
+body {
+  margin: 10;
+  padding: 0;
+}
+canvas {
+  display: block;
+  display: block;
+  border: 10px solid rgb(0, 255, 13);
+  margin-right: auto;
+  margin-left: auto;
+}
+h1 {
+  color: aquamarine;
+  text-align: center;
+}
+head-div {
+  align-items: center;
+  justify-content: flex-end;
+}
+h3{
+  text-align: center;
+  margin: auto;
+  vertical-align: bottom;
+}
+img{
+  margin-left: 200;
+}
