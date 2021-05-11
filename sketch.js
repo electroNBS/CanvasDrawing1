@@ -1,7 +1,7 @@
 var drawing=[];
 var currentPath=[];
 function setup() {
-  canvas = createCanvas(1800, 795);
+  canvas = createCanvas(1450, 550);
   canvas.mousePressed(start);
  
   
